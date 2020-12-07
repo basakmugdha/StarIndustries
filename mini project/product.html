@@ -10,7 +10,7 @@
     <title>Product Details</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!--custom style sheet-->
     <link rel="stylesheet" href="css/style.css">
@@ -61,11 +61,42 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    input fields for modification
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-warning" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-warning">Modify</button>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault01">Product name</label>
+                                <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault01">Type</label>
+                                <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault05">Availability</label>
+                                <input type="text" class="form-control" id="validationDefault05" required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault05">Rate</label>
+                                <input type="text" class="form-control" id="validationDefault05" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1"></label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Description</textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlFile1">Image</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-warning" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-warning">Save changes</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

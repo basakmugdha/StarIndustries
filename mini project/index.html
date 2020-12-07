@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="">
     <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Using fontawesome here-->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <!--custom style sheet-->
@@ -64,7 +64,7 @@
         </div>
 
         <div class="about-model">
-            <img src="../images/car (2).jpg" alt="model" height="400px">
+            <img src="images/car (2).jpg" alt="model" height="400px">
         </div>
 
     </section>
@@ -79,12 +79,12 @@
                 <div class="d-flex center">
                     <div class="dropdown mr-1">
                         <button type="button" class="btn btn-outline-warning dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
-                    Branch
+                    Product Name
                     </button>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Mumbai</a>
-                            <a class="dropdown-item" href="#">Kolkata</a>
-                            <a class="dropdown-item" href="#">Delhi</a>
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </div>
                     <div class="dropdown mr-1">
@@ -99,7 +99,7 @@
                     </div>
                     <div class="dropdown mr-1">
                         <button type="button" class="btn btn-outline-warning dropdown-toggle" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
-                    Color
+                    Product Number
                     </button>
                         <div class="dropdown-menu" aria-labelledby="dropdown03">
                             <a class="dropdown-item" href="#">Action</a>
@@ -129,12 +129,48 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <form>
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="validationDefault01">Product name</label>
+                                        <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="validationDefault01">Type</label>
+                                        <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-3 mb-3">
+                                        <label for="validationDefault05">Product No</label>
+                                        <input type="text" class="form-control" id="validationDefault05" required>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <label for="validationDefault05">Availability</label>
+                                        <input type="text" class="form-control" id="validationDefault05" required>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <label for="validationDefault05">Rate</label>
+                                        <input type="text" class="form-control" id="validationDefault05" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1"></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Description</textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlFile1">Image</label>
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-warning" data-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-warning">Save Product</button>
+                                </div>
+                            </form>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-outline-warning" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-warning">Save changes</button>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -225,7 +261,7 @@
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
