@@ -17,7 +17,8 @@
     $dbname = "cardb";
     $conn = mysqli_connect($host,$user,$password,$dbname);
 
-    $query = "INSERT INTO `product` (`productname`,`cartype`,`branch`,`availability`,`rate`,`description`,`images`) VALUES('$productname','$cartype','$branch','$avail','$rate','$description','$image')";
+    // $query = "INSERT INTO `product` (`productname`,`cartype`,`branch`,`availability`,`rate`,`description`) VALUES('$productname','$cartype','$branch','$avail','$rate','$description','$image')";
+    $query = "INSERT INTO `product` (`productname`,`cartype`,`branch`,`availability`,`rate`,`description`) VALUES('$productname','$cartype','$branch','$avail','$rate','$description')";
     //echo $query;description
     $stmt = $conn->prepare($query);
     $stmt->execute();

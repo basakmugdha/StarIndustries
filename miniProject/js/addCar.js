@@ -18,7 +18,7 @@ function newCarDetails() {
 
     $.ajax({
         type: "POST",
-        url: "../php/addcar.php",
+        url: "php/addcar.php",
         data: formData,
         type: "POST",
         contentType: false, // Dont delete this (jQuery 1.6+)
