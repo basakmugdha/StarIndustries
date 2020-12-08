@@ -5,10 +5,10 @@
     $avail = $_POST['avail'];
     $rate = $_POST['rate'];
     $description = $_POST['description'];
-    if($_POS['image']!=NULL)
-        $image = $_POST['image'];
-    else
-        $image = '';
+    // if($_POS['image']!=NULL)
+    //     $image = $_POST['image'];
+    // else
+    //     $image = '';
     
     
     $host = "localhost";

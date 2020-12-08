@@ -5,7 +5,7 @@ function newCarDetails() {
     var avail = document.getElementById("avail").value;
     var rate = document.getElementById("rate").value;
     var description = document.getElementById("description").value;
-    var image = document.getElementById("image").value;
+    //var image = document.getElementById("image").value;
     console.log(productname);
     var formData = new FormData();
     formData.append("productname", productname);
@@ -14,7 +14,7 @@ function newCarDetails() {
     formData.append("avail", avail);
     formData.append("rate", rate);
     formData.append("description", description);
-    formData.append("image", image);
+    //formData.append("image", image);
 
     $.ajax({
         type: "POST",
