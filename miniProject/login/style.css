@@ -1,0 +1,24 @@
+﻿body{
+background-image:url("car.jpg");
+	background-size: 100% ;
+	background-position: center;
+}
+.login_box{
+	max-width: 700px;
+	float: none;
+	margin:150px auto;
+
+}
+.login-left{
+	background-color: white;
+	padding: 30px;
+}
+.login-right{
+	background-color: white;
+	padding: 30px;
+}
+
+.form-container
+{
+	background-color: white !important;
+}
