@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="">
     <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Using fontawesome here-->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <!--custom style sheet-->
@@ -64,7 +64,7 @@
         </div>
 
         <div class="about-model">
-            <img src="../images/car (2).jpg" alt="model" height="400px">
+            <img src="images/car (2).jpg" alt="model" height="400px">
         </div>
 
     </section>
@@ -129,15 +129,6 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <form action="php/addcar.php" method="POST">
-                                <div class="form-row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="productname">Product name</label>
-                                        <input type="text" class="form-control" id="productname" name="productname" required>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="cartype">Type</label>
-                                        <input type="text" class="form-control" id="cartype" name="cartype" required>
                             <form>
                                 <div class="form-row">
                                     <div class="col-md-6 mb-3">
@@ -151,33 +142,32 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="col-md-3 mb-3">
-                                        <label for="avail">Availability</label>
-                                        <input type="text" class="form-control" id="avail" name="avail" required>
+                                        <label for="validationDefault05">Product No</label>
+                                        <input type="text" class="form-control" id="validationDefault05" required>
                                     </div>
                                     <div class="col-md-3 mb-3">
-                                        <label for="rate">Rate</label>
-                                        <input type="text" class="form-control" id="rate" name="rate" required>
+                                        <label for="validationDefault05">Availability</label>
+                                        <input type="text" class="form-control" id="validationDefault05" required>
                                     </div>
                                     <div class="col-md-3 mb-3">
-                                        <label for="branch">Branch</label>
-                                        <input type="text" class="form-control" id="branch" name="branch" required>
+                                        <label for="validationDefault05">Rate</label>
+                                        <input type="text" class="form-control" id="validationDefault05" required>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="form-group">
-                                        <label for="description"></label>
-                                        <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                                        <label for="exampleFormControlTextarea1"></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Description</textarea>
                                     </div>
                                     <div class="form-group">
-                                        <label for="image">Example file input</label>
-                                        <input type="file" class="form-control-file" id="image">
+                                        <label for="exampleFormControlFile1">Image</label>
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                     </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-outline-warning" data-dismiss="modal">Close</button>
-                                    <button type="button" onclick="newCarDetails()" class="btn btn-warning">Save changes</button>
+                                    <button type="submit" onclick="newCarDetails()" class="btn btn-warning">Save Product</button>
                                 </div>
-                                
                             </form>
                         </div>
                     </div>
@@ -272,7 +262,7 @@
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/addCar.js"></script>
-   
+
 </body>
 
 </HTML>
