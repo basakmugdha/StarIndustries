@@ -6,9 +6,10 @@ $dbname = "carsdb";
 $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-if(isset($_POST['load'])){
+if(isset($_POST['id'])){
+$id=$_POST['id'];
 
-$query = "SELECT * FROM `products`";
+$query = "SELECT * FROM `products` where `product_id`='$id'";
 $stmt = $conn->prepare($query);
 $stmt->execute();
 
