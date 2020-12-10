@@ -13,7 +13,6 @@ function loadDetails() {
             try {
                 var res = JSON.parse(data);
                 console.log(res);
-<<<<<<< Updated upstream
                 res.forEach(car => {
                     console.log(car);
                     html += `<div class="col mb-3" id=` + car.product_id + `>
@@ -29,21 +28,11 @@ function loadDetails() {
                     </div>
                 </div>`;
                 });
-            } catch (error) {
-                console.log(data);
-            }
-            $("#cards").html(html);
-        },
 
-        //Other options
-    });
-
-=======
             } catch (error) {
                 console.log(data);
             }
         },
         //Other options
     });
->>>>>>> Stashed changes
 }
