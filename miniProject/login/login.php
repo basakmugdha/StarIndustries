@@ -25,7 +25,6 @@
                     </div>
                           <br>        
                     <button type="submit" class="btn btn-primary">Login</button>
-                    <button type="submit" class="btn btn-primary">Login as Administartor</button>
                 </form>
             </div>
  
@@ -36,6 +35,22 @@
                     <div class="form_group">
                         <label>Username</label>
                         <input type="text" name="user" class="form-control" required />
+                    </div>
+                    <div class="form_group">
+                        <label>Email</label>
+                        <input type="text" name="email" class="form-control" required />
+                    </div>
+                    <div class="form_group">
+                        <label>Phone</label>
+                        <input type="text" name="phone" class="form-control" required />
+                    </div>
+                    <div class="form_group">
+                        <label>BranchID</label>
+                        <input type="text" name="branchID" class="form-control" required />
+                    </div>
+                    <div class="form_group">
+                        <label>Managed By</label>
+                        <input type="text" name="managerID" placeholder="Manager ID" class="form-control" required />
                     </div>
                     <div class="form_group">
                         <label>Password</label>
